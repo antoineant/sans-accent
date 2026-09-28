@@ -7,7 +7,7 @@
 ## Key facts
 
 - Platform: macOS 14 or later. Mac only for now (no Windows, iPhone or Android version).
-- Price: free, with optional support on Liberapay or GitHub Sponsors.
+- Price: free, with optional support on Liberapay.
 - How it works: unambiguous words are accented automatically when the word ends (more than 35,000 words),
   and grammar rules settle many others ("je suis allé", "à cause"). When French is ambiguous ("a" or "à",
   "ou" or "où"), a small list appears above the word; tapping the Option key (⌥) shows the other spellings

@@ -20,7 +20,7 @@ It needs macOS Accessibility access to read and rewrite what you type.
 ## Support
 
 Sans-Accent is free and will stay free. If it saves you time, you can support its development on
-[Liberapay](https://liberapay.com/antoineant/donate) or [GitHub Sponsors](https://github.com/sponsors/antoineant).
+[Liberapay](https://liberapay.com/antoineant/donate).
 
 ## Build from source
 
