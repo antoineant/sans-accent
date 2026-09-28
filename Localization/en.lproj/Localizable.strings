@@ -10,7 +10,7 @@
 "menu.hint" = "Tap ⌥ to choose accents";
 "menu.welcome" = "Welcome…";
 "menu.support" = "Support Sans-Accent…";
-"support.url" = "https://antoineant.github.io/sans-accent/en/#support";
+"support.url" = "https://sans-accent.com/en/#support";
 "menu.language" = "Language";
 "language.system" = "System Default";
 "menu.launchAtLogin" = "Launch at Login";

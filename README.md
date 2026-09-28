@@ -15,7 +15,7 @@ Everything happens on your Mac: nothing you type is sent anywhere, and the app c
 It needs macOS Accessibility access to read and rewrite what you type.
 
 **[Download for macOS 14 or later](https://github.com/antoineant/sans-accent/releases/latest/download/Sans-Accent.dmg)**
-(free, signed and notarized) · [Website](https://antoineant.github.io/sans-accent/)
+(free, signed and notarized) · [Website](https://sans-accent.com/)
 
 ## Support
 
@@ -64,6 +64,8 @@ Then `python3 build_dict.py && ./build.sh`. To measure a change:
 
 `python3 site/build_site.py` refreshes the demo dictionary and icons.
 Preview with `python3 -m http.server -d site 8765`, then open http://127.0.0.1:8765/.
+Every push to `main` that touches `site/` publishes it to https://sans-accent.com (GitHub Pages, see
+`.github/workflows/pages.yml`; the domain's DNS is at OVH).
 
 ### Release
 
