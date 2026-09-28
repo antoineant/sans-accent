@@ -2,7 +2,7 @@
 
 > Sans-Accent is a free macOS app that adds French accents as you type on a QWERTY keyboard, in every app.
 > You type "ecole", it writes "école". Everything runs on the Mac: nothing you type is sent anywhere.
-> Made in Toulouse, France, by Girafe Studio. Open source (MIT).
+> Made in Toulouse, France, by Girafe Studio. Open source (GPL-3.0).
 
 ## Key facts
 

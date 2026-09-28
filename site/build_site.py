@@ -121,7 +121,7 @@ def structured_data(page, lang, kind, path, version):
         "url": f"{SITE_URL}/" if lang == "fr" else f"{SITE_URL}/en/",
         "image": f"{SITE_URL}/assets/icon-512.png",
         "inLanguage": ["fr", "en"],
-        "license": "https://opensource.org/licenses/MIT",
+        "license": "https://www.gnu.org/licenses/gpl-3.0.html",
         "codeRepository": REPO_URL,
         "sameAs": [REPO_URL],
         "author": {"@type": "Person", "name": "Antoine Barthès"},
@@ -188,7 +188,7 @@ def seo_files(version):
 
 > Sans-Accent is a free macOS app that adds French accents as you type on a QWERTY keyboard, in every app.
 > You type "ecole", it writes "école". Everything runs on the Mac: nothing you type is sent anywhere.
-> Made in Toulouse, France, by Girafe Studio. Open source (MIT).
+> Made in Toulouse, France, by Girafe Studio. Open source (GPL-3.0).
 
 ## Key facts
 

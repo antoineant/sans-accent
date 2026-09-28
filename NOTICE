@@ -1,0 +1,13 @@
+Sans-Accent
+Copyright (C) 2026 Antoine Barthès
+
+The source code is licensed under the GNU General Public License, version 3 (see LICENSE).
+
+The dictionary (accent_dict.tsv and site/assets/demo-dict.json) is derived from
+Lexique 3.83 (http://www.lexique.org) and FrequencyWords
+(https://github.com/hermitdave/FrequencyWords), and is distributed under
+CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+The benchmark sentences in data/testset.tsv come from Tatoeba (https://tatoeba.org)
+under CC BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/), except those
+from test/handwritten.txt.
