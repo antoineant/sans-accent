@@ -1,0 +1,37 @@
+# Sans-Accent
+
+> Sans-Accent is a free macOS app that adds French accents as you type on a QWERTY keyboard, in every app.
+> You type "ecole", it writes "école". Everything runs on the Mac: nothing you type is sent anywhere.
+> Made in Toulouse, France, by Girafe Studio. Open source (MIT).
+
+## Key facts
+
+- Platform: macOS 14 or later. Mac only for now (no Windows, iPhone or Android version).
+- Price: free, with optional support on Liberapay or GitHub Sponsors.
+- How it works: unambiguous words are accented automatically when the word ends (more than 35,000 words),
+  and grammar rules settle many others ("je suis allé", "à cause"). When French is ambiguous ("a" or "à",
+  "ou" or "où"), a small list appears above the word; tapping the Option key (⌥) shows the other spellings
+  of any word.
+- Works in every app where you type text: Mail, Messages, Slack, Notion, Word, browsers, Terminal.
+  Off by default in code editors; can be turned off per app.
+- Privacy: it needs macOS Accessibility access to read and rewrite keystrokes; it sends nothing, stores
+  nothing and contains no trackers. Signed by its developer and notarized by Apple.
+- Interface in French and English.
+- Download: https://github.com/antoineant/sans-accent/releases/latest/download/Sans-Accent.dmg
+- Source code: https://github.com/antoineant/sans-accent
+- Publisher: Girafe Studio, https://www.girafestudio.fr
+
+## Pages
+
+- [Sans-Accent (français)](https://sans-accent.com/): home page, live demo, FAQ
+- [Sans-Accent (English)](https://sans-accent.com/en/): home page, live demo, FAQ
+- [Taper les accents français sur un clavier QWERTY (Mac)](https://sans-accent.com/accents-clavier-qwerty-mac/): guide to
+  the four methods (press and hold, Option shortcuts, text replacements, Sans-Accent)
+- [How to type French accents on a QWERTY keyboard (Mac)](https://sans-accent.com/en/french-accents-qwerty-mac/): the same
+  guide in English
+
+## En français
+
+Sans-Accent est une app Mac gratuite qui ajoute les accents quand vous écrivez en français sur un clavier
+QWERTY, dans toutes vos apps : vous tapez « ecole », elle écrit « école ». Tout se passe sur votre Mac.
+Slogan : « Tapez sans accents, écrivez sans fautes. »

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sans-Accent</title>
+  <title>Sans-Accent: French accents on a QWERTY keyboard (Mac)</title>
   <meta name="description" content="Writing French on a QWERTY keyboard? Sans-Accent adds the accents as you type, in every Mac app.">
   <link rel="canonical" href="https://sans-accent.com/en/">
   <link rel="alternate" hreflang="fr" href="https://sans-accent.com/">
@@ -14,9 +14,127 @@
   <meta property="og:title" content="Sans-Accent: type without accents, write without mistakes">
   <meta property="og:description" content="Writing French on a QWERTY keyboard? Sans-Accent adds the accents as you type, in every Mac app.">
   <meta property="og:url" content="https://sans-accent.com/en/">
-  <meta property="og:image" content="https://sans-accent.com/assets/icon-512.png">
+  <meta property="og:image" content="https://sans-accent.com/assets/og-en.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
   <link rel="icon" href="../assets/icon-256.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json" id="structured-data">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://sans-accent.com/#app",
+      "name": "Sans-Accent",
+      "description": "Writing French on a QWERTY keyboard? Sans-Accent adds the accents as you type, in every Mac app.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "macOS 14 or later",
+      "softwareVersion": "1.0",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "isAccessibleForFree": true,
+      "downloadUrl": "https://github.com/antoineant/sans-accent/releases/latest/download/Sans-Accent.dmg",
+      "url": "https://sans-accent.com/en/",
+      "image": "https://sans-accent.com/assets/icon-512.png",
+      "inLanguage": [
+        "fr",
+        "en"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "codeRepository": "https://github.com/antoineant/sans-accent",
+      "sameAs": [
+        "https://github.com/antoineant/sans-accent"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Antoine Barthès"
+      },
+      "publisher": {
+        "@id": "https://www.girafestudio.fr/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.girafestudio.fr/#organization",
+      "name": "Girafe Studio",
+      "url": "https://www.girafestudio.fr",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toulouse",
+        "addressCountry": "FR"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "url": "https://sans-accent.com/en/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I type French accents on a QWERTY Mac keyboard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "macOS offers three methods: pressing and holding a letter, Option shortcuts (⌥ E then E for “é”) and text replacements. Sans-Accent saves you the trouble: you type without accents and the app adds them for you. Our guide covers each method."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Sans-Accent work in every app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in every app where you type text: Mail, Messages, Slack, Notion, Word, your browser or Terminal. It's off by default in code editors, and you can turn it off in any other app from its menu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Sans-Accent send what I type anywhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sans-Accent reads your keystrokes to add accents, which is why macOS asks for Accessibility access, but everything happens on your Mac: the app sends nothing and stores nothing. Its code is public on GitHub, so anyone can check."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sans-Accent free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and it will stay free. If the app helps you, you can support its development on Liberapay or GitHub Sponsors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a QWERTY keyboard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sans-Accent is designed for QWERTY, but it also helps on an AZERTY keyboard, for example with accented capitals like “É” or “À”."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sans-Accent available for Windows, iPhone or Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet. Sans-Accent runs on Mac, with macOS 14 or later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who makes Sans-Accent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sans-Accent is made in Toulouse, France, by Girafe Studio, an agency specializing in sovereign AI for small and medium businesses."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..800;1,7..72,500&display=swap">
@@ -26,7 +144,7 @@
   <div class="page">
     <header class="top">
       <a class="brand" href="./"><img src="../assets/icon-256.png" alt="">Sans-Accent</a>
-      <nav><a href="../" hreflang="fr" lang="fr">Français</a></nav>
+      <nav><a href="french-accents-qwerty-mac/">Guide</a><a href="https://github.com/antoineant/sans-accent">GitHub</a><a href="../" hreflang="fr" lang="fr">Français</a></nav>
     </header>
 
     <main>
@@ -95,6 +213,26 @@
           <li><span>Open the app: a window walks you through allowing access, then lets you try it right away.</span></li>
         </ol>
       </section>
+      <section aria-labelledby="faq-title" id="faq">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <div class="faq">
+          <h3>How do I type French accents on a QWERTY Mac keyboard?</h3>
+          <p>macOS offers three methods: pressing and holding a letter, Option shortcuts (<kbd>⌥</kbd>&nbsp;E then E for “é”) and text replacements. Sans-Accent saves you the trouble: you type without accents and the app adds them for you. <a href="french-accents-qwerty-mac/">Our guide</a> covers each method.</p>
+          <h3>Does Sans-Accent work in every app?</h3>
+          <p>Yes, in every app where you type text: Mail, Messages, Slack, Notion, Word, your browser or Terminal. It's off by default in code editors, and you can turn it off in any other app from its menu.</p>
+          <h3>Does Sans-Accent send what I type anywhere?</h3>
+          <p>No. Sans-Accent reads your keystrokes to add accents, which is why macOS asks for Accessibility access, but everything happens on your Mac: the app sends nothing and stores nothing. Its code is public on GitHub, so anyone can check.</p>
+          <h3>Is Sans-Accent free?</h3>
+          <p>Yes, and it will stay free. If the app helps you, you can support its development on Liberapay or GitHub Sponsors.</p>
+          <h3>Do I need a QWERTY keyboard?</h3>
+          <p>No. Sans-Accent is designed for QWERTY, but it also helps on an AZERTY keyboard, for example with accented capitals like “É” or “À”.</p>
+          <h3>Is Sans-Accent available for Windows, iPhone or Android?</h3>
+          <p>Not yet. Sans-Accent runs on Mac, with macOS&nbsp;14 or later.</p>
+          <h3>Who makes Sans-Accent?</h3>
+          <p>Sans-Accent is made in Toulouse, France, by Girafe Studio, an agency specializing in sovereign AI for small and medium businesses.</p>
+        </div>
+      </section>
+
       <section aria-labelledby="support-title" id="support">
         <h2 id="support-title">Support Sans-Accent</h2>
         <p>Sans-Accent is free and will stay free. If it saves you time, you can support its development: every contribution helps us improve it and keep it up to date.</p>
@@ -107,7 +245,7 @@
     </main>
 
     <footer>
-      <p>Sans-Accent is made in Toulouse by Girafe Studio. Its code is open and available on <a href="https://github.com/antoineant/sans-accent">GitHub</a>. Its dictionary is based on <a href="http://www.lexique.org">Lexique&nbsp;3</a>, published under the CC&nbsp;BY-SA&nbsp;4.0 license.</p>
+      <p>Sans-Accent is made in Toulouse by <a href="https://www.girafestudio.fr">Girafe Studio</a>. Its code is open and available on <a href="https://github.com/antoineant/sans-accent">GitHub</a>. Its dictionary is based on <a href="http://www.lexique.org">Lexique&nbsp;3</a>, published under the CC&nbsp;BY-SA&nbsp;4.0 license.</p>
     </footer>
   </div>
   <script src="../assets/demo.js"></script>

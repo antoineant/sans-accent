@@ -82,4 +82,4 @@ writes `dist/Sans-Accent-<version>.dmg` plus `dist/Sans-Accent.dmg`. Publish wit
 - Benchmark sentences come from [Tatoeba](https://tatoeba.org) under
   [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/).
 
-The code is under the [MIT license](LICENSE). Made in Toulouse by Antoine Barthès (Girafe Studio).
+The code is under the [MIT license](LICENSE). Made in Toulouse by Antoine Barthès, [Girafe Studio](https://www.girafestudio.fr).

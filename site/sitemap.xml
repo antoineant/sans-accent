@@ -2,12 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sans-accent.com/</loc>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://sans-accent.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sans-accent.com/en/"/>
   </url>
   <url>
     <loc>https://sans-accent.com/en/</loc>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://sans-accent.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sans-accent.com/en/"/>
+  </url>
+  <url>
+    <loc>https://sans-accent.com/accents-clavier-qwerty-mac/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sans-accent.com/accents-clavier-qwerty-mac/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sans-accent.com/en/french-accents-qwerty-mac/"/>
+  </url>
+  <url>
+    <loc>https://sans-accent.com/en/french-accents-qwerty-mac/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sans-accent.com/accents-clavier-qwerty-mac/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sans-accent.com/en/french-accents-qwerty-mac/"/>
   </url>
 </urlset>

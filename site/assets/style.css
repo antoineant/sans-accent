@@ -69,6 +69,7 @@ kbd {
 }
 .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; color: var(--ink); text-decoration: none; }
 .brand img { width: 34px; height: 34px; }
+.top nav { display: flex; gap: 1.1rem; }
 .top nav a { color: var(--muted); font-size: 0.95rem; }
 
 /* Hero */
@@ -191,6 +192,15 @@ section p { margin: 0 0 1rem; max-width: 62ch; }
 .mini-list .on { background: var(--blue); color: var(--blue-ink); }
 .mini-list small { padding: 0 0.55rem; font: 0.7rem/1.6 system-ui, sans-serif; color: var(--muted); }
 .big-key { justify-self: end; font-size: 2.2rem; }
+
+.faq h3 { margin-top: 1.6rem; }
+.faq h3:first-child { margin-top: 0; }
+.faq p { margin-bottom: 0; }
+
+table { width: 100%; max-width: 40rem; margin: 0.5rem 0 1.25rem; border-collapse: collapse; font-size: 1rem; }
+th, td { padding: 0.55rem 0.75rem 0.55rem 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { font-weight: 700; }
+td:first-child { font-weight: 600; }
 
 ol.steps { margin: 0; padding: 0; list-style: none; counter-reset: step; }
 ol.steps li { counter-increment: step; display: grid; grid-template-columns: 2.4rem 1fr; gap: 0.8rem; margin-bottom: 1rem; max-width: 62ch; }
