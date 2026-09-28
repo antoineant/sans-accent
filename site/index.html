@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sans-Accent</title>
+  <meta name="description" content="Vous écrivez en français sur un clavier QWERTY ? Sans-Accent ajoute les accents pendant que vous tapez, dans toutes vos apps Mac.">
+  <link rel="alternate" hreflang="fr" href="./">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="icon" href="assets/icon-256.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..800;1,7..72,500&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <a class="brand" href="./"><img src="assets/icon-256.png" alt="">Sans-Accent</a>
+      <nav><a href="en/" hreflang="en" lang="en">English</a></nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1>Tapez sans accents, <span class="accent">é</span>crivez sans fautes.</h1>
+        <p class="lead">Vous écrivez en français sur un clavier QWERTY&nbsp;? Sans-Accent ajoute les accents pendant que vous tapez, dans toutes vos apps.</p>
+
+        <div class="demo">
+          <label for="demo-input">Essayez ici, sans accents&nbsp;:</label>
+          <div class="demo-box">
+            <div class="mirror" id="demo-mirror" aria-hidden="true"></div>
+            <textarea id="demo-input" rows="2" spellcheck="false" autocomplete="off" autocapitalize="off"
+                      placeholder="par exemple&nbsp;: je suis alle a l'ecole"></textarea>
+          </div>
+          <div class="choices" id="demo-choices" hidden>
+            <span>Deux graphies possibles&nbsp;:</span>
+            <span id="demo-choice-buttons"></span>
+          </div>
+        </div>
+
+        <div class="download">
+          <a class="button" href="https://github.com/antoineant/sans-accent/releases/latest/download/Sans-Accent.dmg">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3v10m-4.5-4.5L10 13l4.5-4.5M4 17h12"/></svg>
+            Télécharger pour Mac
+          </a>
+          <p>Sans-Accent est gratuit et fonctionne sur macOS&nbsp;14 ou version ultérieure.</p>
+        </div>
+      </div>
+
+      <section aria-labelledby="how">
+        <h2 id="how">Comment ça marche</h2>
+        <div class="feature">
+          <div>
+            <h3>Les accents arrivent tout seuls</h3>
+            <p>Tapez «&nbsp;ecole&nbsp;»&nbsp;: le mot devient «&nbsp;école&nbsp;» dès que vous passez au suivant. Sans-Accent connaît plus de 35&nbsp;000 mots et assez de grammaire pour écrire «&nbsp;je suis allé&nbsp;» ou «&nbsp;à cause&nbsp;» sans rien vous demander.</p>
+          </div>
+          <div class="example" aria-hidden="true"><span class="typed">ecole</span><span class="arrow">→</span><span class="accent">é</span>cole</div>
+        </div>
+        <div class="feature">
+          <div>
+            <h3>Vous choisissez quand le français hésite</h3>
+            <p>Certains mots s'écrivent de deux façons, comme «&nbsp;a&nbsp;» et «&nbsp;à&nbsp;», ou «&nbsp;ou&nbsp;» et «&nbsp;où&nbsp;». Une petite liste apparaît au-dessus du mot&nbsp;: choisissez avec <span class="keys"><kbd>↑</kbd> <kbd>↓</kbd></span> puis validez avec <kbd>⏎</kbd>. Si vous continuez à taper, le mot reste tel quel.</p>
+          </div>
+          <div class="mini-list" aria-hidden="true"><span class="on">à</span><span>a</span><small>↑↓ ⏎</small></div>
+        </div>
+        <div class="feature">
+          <div>
+            <h3>Une touche pour tout le reste</h3>
+            <p>Appuyez brièvement sur <kbd>⌥</kbd> après n'importe quel mot pour voir ses autres graphies. Vous pouvez aussi désactiver Sans-Accent dans une app précise, comme votre éditeur de code.</p>
+          </div>
+          <div class="big-key" aria-hidden="true"><kbd>⌥</kbd></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="privacy">
+        <h2 id="privacy">Vos frappes restent sur votre Mac</h2>
+        <p>Pour ajouter les accents, Sans-Accent lit ce que vous tapez&nbsp;: c'est pour cela que macOS vous demande de lui accorder l'accès à l'Accessibilité. Tout se passe sur votre Mac. L'app n'envoie rien, ne garde rien et ne contient aucun traqueur.</p>
+        <p>Sans-Accent est signé par son développeur et notarisé par Apple&nbsp;: macOS vérifie ainsi que l'app n'a pas été modifiée depuis sa publication.</p>
+      </section>
+
+      <section aria-labelledby="install">
+        <h2 id="install">Installer Sans-Accent</h2>
+        <ol class="steps">
+          <li><span>Téléchargez le fichier et ouvrez-le.</span></li>
+          <li><span>Glissez Sans-Accent dans le dossier Applications.</span></li>
+          <li><span>Lancez l'app&nbsp;: une fenêtre vous guide pour autoriser l'accès, puis vous propose de l'essayer tout de suite.</span></li>
+        </ol>
+      </section>
+      <section aria-labelledby="soutenir-titre" id="soutenir">
+        <h2 id="soutenir-titre">Soutenir Sans-Accent</h2>
+        <p>Sans-Accent est gratuit et le restera. Si l'app vous fait gagner du temps, vous pouvez soutenir son développement&nbsp;: chaque don nous aide à l'améliorer et à la maintenir à jour.</p>
+        <div class="support">
+          <a class="button secondary" href="https://liberapay.com/antoineant/donate">Faire un don sur Liberapay</a>
+          <a class="button secondary" href="https://github.com/sponsors/antoineant">Devenir sponsor sur GitHub</a>
+        </div>
+        <p class="note">Liberapay est une plateforme de dons gérée par une association française à but non lucratif.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Nous concevons Sans-Accent à Toulouse, chez Girafe Studio. Son code est ouvert et disponible sur <a href="https://github.com/antoineant/sans-accent">GitHub</a>. Son dictionnaire s'appuie sur <a href="http://www.lexique.org">Lexique&nbsp;3</a>, publié sous licence CC&nbsp;BY-SA&nbsp;4.0.</p>
+    </footer>
+  </div>
+  <script src="assets/demo.js"></script>
+</body>
+</html>

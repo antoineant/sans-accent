@@ -1,0 +1,12 @@
+.build/
+.swiftpm/
+dist/
+__pycache__/
+.DS_Store
+graft/
+# Source data, downloaded (see README)
+data/Lexique383.tsv
+data/fra_sentences.tsv
+data/en_50k.txt
+data/preds_*.tsv
+.ignore

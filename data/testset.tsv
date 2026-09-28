@@ -1,0 +1,209 @@
+id	category	source	typed	gold
+1	a/à	tatoeba	Je me suis entrainee a parler francais avec Tom.	Je me suis entraînée à parler français avec Tom.
+2	a/à	tatoeba	Je tiens beaucoup a toi.	Je tiens beaucoup à toi.
+3	a/à	tatoeba	Le feu d'artifice a ete annule a cause du typhon.	Le feu d'artifice a été annulé à cause du typhon.
+4	a/à	tatoeba	Il a vraiment ete gentil de m'inviter a la fete de son anniversaire.	Il a vraiment été gentil de m'inviter à la fête de son anniversaire.
+5	a/à	tatoeba	Quand je repense a ce que j'ai fait, je me sens assez stupide.	Quand je repense à ce que j'ai fait, je me sens assez stupide.
+6	a/à	tatoeba	Vous n'allez pas tarder a me revoir.	Vous n'allez pas tarder à me revoir.
+7	a/à	tatoeba	Je ne suis pas le seul a connaitre votre secret.	Je ne suis pas le seul à connaître votre secret.
+8	a/à	tatoeba	Je te prie de mieux faire attention a l'avenir.	Je te prie de mieux faire attention à l'avenir.
+9	a/à	tatoeba	L'amie a qui je dis tout s'appelle Marie.	L'amie à qui je dis tout s'appelle Marie.
+10	a/à	tatoeba	Je vais rentrer chez moi a minuit.	Je vais rentrer chez moi à minuit.
+11	a/à	tatoeba	Je voudrais parler a Tom seul, si je peux.	Je voudrais parler à Tom seul, si je peux.
+12	a/à	tatoeba	Tom essaya de trouver quelque chose a manger.	Tom essaya de trouver quelque chose à manger.
+13	a/à	tatoeba	A ta sante, cher ami !	À ta santé, cher ami !
+14	a/à	tatoeba	Tom a dit la verite a Manon.	Tom a dit la vérité à Manon.
+15	a/à	tatoeba	Biziyou est le nom d'un village a Bejaia ?	Biziyou est le nom d'un village à Béjaia ?
+16	a/à	tatoeba	Mon voisin a appele les pompiers.	Mon voisin a appelé les pompiers.
+17	a/à	tatoeba	Il n'a pas voulu le faire.	Il n'a pas voulu le faire.
+18	a/à	tatoeba	Jim a un chapeau blanc sur la tete.	Jim a un chapeau blanc sur la tête.
+19	a/à	tatoeba	Il n'y a rien qu'ils puissent faire.	Il n'y a rien qu'ils puissent faire.
+20	a/à	tatoeba	Il ne veut pas quitter la chambre parce qu'il a peur d'attraper un autre rhume.	Il ne veut pas quitter la chambre parce qu'il a peur d'attraper un autre rhume.
+21	a/à	tatoeba	Je suis venu il y a peu de temps.	Je suis venu il y a peu de temps.
+22	a/à	tatoeba	Je suis d'accord avec la plupart de ce qu'il a dit.	Je suis d'accord avec la plupart de ce qu'il a dit.
+23	a/à	tatoeba	La statue a ete endommagee.	La statue a été endommagée.
+24	a/à	tatoeba	Ma voiture a ete detruite dans le crash.	Ma voiture a été détruite dans le crash.
+25	a/à	tatoeba	Tom a l'air ridicule.	Tom a l'air ridicule.
+26	a/à	tatoeba	Ventre affame n'a point d'oreilles.	Ventre affamé n'a point d'oreilles.
+27	a/à	tatoeba	Ma chaussure de sport extraordinairement bien confectionnee a tenu cinq ans ; pas sa collegue.	Ma chaussure de sport extraordinairement bien confectionnée a tenu cinq ans ; pas sa collègue.
+28	a/à	tatoeba	Marie a memorise 2000 mots anglais.	Marie a mémorisé 2000 mots anglais.
+29	a/à	tatoeba	Elle a agrandi les photos.	Elle a agrandi les photos.
+30	a/à	tatoeba	Son concept m'a captive.	Son concept m'a captivé.
+31	ou/où	tatoeba	C'est le personnage ou la situation qui porte le sujet a agir.	C'est le personnage ou la situation qui porte le sujet à agir.
+32	ou/où	tatoeba	Il a trouve ou elle etait.	Il a trouvé où elle était.
+33	ou/où	tatoeba	Ou se situe la source de cette riviere ?	Où se situe la source de cette rivière ?
+34	ou/où	tatoeba	Ou habitais-tu quand tu etais a Paris ? - J'habitais chez un ami.	Où habitais-tu quand tu étais à Paris ? - J'habitais chez un ami.
+35	ou/où	tatoeba	Ou couches-tu ce soir ?	Où couches-tu ce soir ?
+36	ou/où	tatoeba	Ou peut-on trouver des tulipes hollandaises ici ?	Où peut-on trouver des tulipes hollandaises ici ?
+37	ou/où	tatoeba	Ou se trouvait votre fille ?	Où se trouvait votre fille ?
+38	ou/où	tatoeba	Le silence est d'or la ou le bavardage est generalise.	Le silence est d'or là où le bavardage est généralisé.
+39	ou/où	tatoeba	Ah, maintenant je m'en souviens. J'ai utilise un preservatif; chose que je fais rarement ou plutot presque jamais.	Ah, maintenant je m'en souviens. J'ai utilisé un préservatif; chose que je fais rarement ou plutôt presque jamais.
+40	ou/où	tatoeba	Elle est ou la clef ?	Elle est oû la clef ?
+41	ou/où	tatoeba	Dans les pays comme la Norvege ou la Finlande, il y a beaucoup de neige en hiver.	Dans les pays comme la Norvège ou la Finlande, il y a beaucoup de neige en hiver.
+42	ou/où	tatoeba	On peut manger les oignons crus ou cuits.	On peut manger les oignons crus ou cuits.
+43	ou/où	tatoeba	Que cela te plaise ou non, il faudra que tu le fasses.	Que cela te plaise ou non, il faudra que tu le fasses.
+44	ou/où	tatoeba	Il le regrettera tot ou tard.	Il le regrettera tôt ou tard.
+45	ou/où	tatoeba	Tu es etudiant ou bien tu travailles ?	Tu es étudiant ou bien tu travailles ?
+46	ou/où	tatoeba	Veux-tu du vin blanc ou rouge ?	Veux-tu du vin blanc ou rouge ?
+47	ou/où	tatoeba	Je ne dis pas que c'est bon ou mauvais. C'est simplement un fait.	Je ne dis pas que c'est bon ou mauvais. C'est simplement un fait.
+48	ou/où	tatoeba	Le temps devient plus ou moins beau.	Le temps devient plus ou moins beau.
+49	ou/où	tatoeba	Y allez-vous en bus ou en voiture ?	Y allez-vous en bus ou en voiture ?
+50	ou/où	tatoeba	Est-ce que tu viens avec moi ou est-ce que tu restes ici ?	Est-ce que tu viens avec moi ou est-ce que tu restes ici ?
+51	la/là	tatoeba	La presentation pour le cours d'histoire est a rendre la semaine prochaine.	La présentation pour le cours d'histoire est à rendre la semaine prochaine.
+52	la/là	tatoeba	Vous ne pouvez pas penetrer la !	Vous ne pouvez pas pénétrer là !
+53	la/là	tatoeba	Je suis reste la nuit la-bas chez eux.	Je suis resté la nuit là-bas chez eux.
+54	la/là	tatoeba	Nous avons marche jusqu'a la plage.	Nous avons marché jusqu'à la plage.
+55	la/là	tatoeba	Pourquoi etes-vous assis la ?	Pourquoi êtes-vous assis là ?
+56	la/là	tatoeba	Reviens a la maison avant que la nuit tombe.	Reviens à la maison avant que la nuit tombe.
+57	la/là	tatoeba	Et Thomas, et moi voulons la meme chose.	Et Thomas, et moi voulons la même chose.
+58	la/là	tatoeba	Thomas n'a pas lave la vaisselle.	Thomas n'a pas lavé la vaisselle.
+59	la/là	tatoeba	Pourriez-vous fermer la fenetre, s'il vous plait ?	Pourriez-vous fermer la fenêtre, s'il vous plaît ?
+60	la/là	tatoeba	La politique de l’Europe, c’est l’endiguement de l’Amerique.	La politique de l’Europe, c’est l’endiguement de l’Amérique.
+61	la/là	tatoeba	Il dirigea son attention sur la photo.	Il dirigea son attention sur la photo.
+62	la/là	tatoeba	Je veux une tasse de cafe et je la veux maintenant.	Je veux une tasse de café et je la veux maintenant.
+63	la/là	tatoeba	Il vous faut une carte magnetique pour ouvrir la porte.	Il vous faut une carte magnétique pour ouvrir la porte.
+64	la/là	tatoeba	L'incident sema les germes de la guerre.	L'incident sema les germes de la guerre.
+65	la/là	tatoeba	Dan a pris ses distances avec la famille de Linda.	Dan a pris ses distances avec la famille de Linda.
+66	du/dû	tatoeba	Tom a trouve du travail a Boston.	Tom a trouvé du travail à Boston.
+67	du/dû	tatoeba	Est-ce que tu te souviens du nom de l'ambulancier qui m'a sauve la vie ?	Est-ce que tu te souviens du nom de l'ambulancier qui m'a sauvé la vie ?
+68	du/dû	tatoeba	Te souviens-tu du jour ou nous nous sommes rencontres pour la premiere fois ?	Te souviens-tu du jour où nous nous sommes rencontrés pour la première fois ?
+69	du/dû	tatoeba	Elle a du mentir pour dissimuler ses negligences.	Elle a dû mentir pour dissimuler ses négligences.
+70	du/dû	tatoeba	Il a coupe quelques branches du chene.	Il a coupé quelques branches du chêne.
+71	du/dû	tatoeba	Ce geste a du sens.	Ce geste a du sens.
+72	du/dû	tatoeba	La fonction du frein est d'arreter la voiture.	La fonction du frein est d'arrêter la voiture.
+73	du/dû	tatoeba	Les Japonais mangent du riz au moins une fois par jour.	Les Japonais mangent du riz au moins une fois par jour.
+74	du/dû	tatoeba	Mary a mis du sucre dans son cafe.	Mary a mis du sucre dans son café.
+75	du/dû	tatoeba	Tu n'as pas tort du tout.	Tu n'as pas tort du tout.
+76	sur/sûr	tatoeba	Je pense que mon telephone est sur ecoute.	Je pense que mon téléphone est sur écoute.
+77	sur/sûr	tatoeba	Son argument n'etait pas base sur des faits.	Son argument n'était pas basé sur des faits.
+78	sur/sûr	tatoeba	Je suis bien informe sur ce sujet.	Je suis bien informé sur ce sujet.
+79	sur/sûr	tatoeba	Etes-vous sur que ce soit une bonne idee ?	Êtes-vous sûr que ce soit une bonne idée ?
+80	sur/sûr	tatoeba	Nous avons apprecie regarder le feu d'artifice sur un pont l'ete dernier.	Nous avons apprécié regarder le feu d'artifice sur un pont l'été dernier.
+81	sur/sûr	tatoeba	J’ai decouvert un documentaire sur la mode des annees 80, c’etait fascinant.	J’ai découvert un documentaire sur la mode des années 80, c’était fascinant.
+82	sur/sûr	tatoeba	Sur l'ile d'Oleron, nous avons eu un sejour tres ensoleille.	Sur l'île d'Oléron, nous avons eu un séjour très ensoleillé.
+83	sur/sûr	tatoeba	Tu as quelque chose sur la levre.	Tu as quelque chose sur la lèvre.
+84	sur/sûr	tatoeba	Vous trouvez ce bon vin sur la table.	Vous trouvez ce bon vin sur la table.
+85	sur/sûr	tatoeba	J'ecris sur la kabyle.	J'écris sur la kabyle.
+86	des/dès	tatoeba	Arrete de manger des cochonneries.	Arrête de manger des cochonneries.
+87	des/dès	tatoeba	Il traine sans arret devant la tele pendant des heures.	Il traîne sans arrêt devant la télé pendant des heures.
+88	des/dès	tatoeba	Je l'ai tape, il a vu des etincelles.	Je l'ai tapé, il a vu des étincelles.
+89	des/dès	tatoeba	Pour des tirs a longue distance, aligne le cran de mire et le guidon.	Pour des tirs à longue distance, aligne le cran de mire et le guidon.
+90	des/dès	tatoeba	Que ceux qui n'ont pas de liseron des champs dans leur potager levent le doigt !	Que ceux qui n'ont pas de liseron des champs dans leur potager lèvent le doigt !
+91	des/dès	tatoeba	Le francais, l'espagnol, l'italien et le portugais sont des langues romanes.	Le français, l'espagnol, l'italien et le portugais sont des langues romanes.
+92	des/dès	tatoeba	Il aime ecrire des articles pour Wikipedia.	Il aime écrire des articles pour Wikipédia.
+93	des/dès	tatoeba	L'armee des morts a encore conquis une ville.	L'armée des morts a encore conquis une ville.
+94	-e/-é	tatoeba	Je ne mangerai plus jamais de pates.	Je ne mangerai plus jamais de pâtes.
+95	-e/-é	tatoeba	Je prefererais te parler en prive.	Je préfèrerais te parler en privé.
+96	-e/-é	tatoeba	Je ne peux regarder cette photo sans penser a ma defunte mere.	Je ne peux regarder cette photo sans penser à ma défunte mère.
+97	-e/-é	tatoeba	Si vous aviez lu l'horaire avec plus de soin, vous ne vous seriez pas trompe de train !	Si vous aviez lu l'horaire avec plus de soin, vous ne vous seriez pas trompé de train !
+98	-e/-é	tatoeba	J'espere que je plairai a Tom.	J'espère que je plairai à Tom.
+99	-e/-é	tatoeba	L'amour deplace les montagnes.	L'amour déplace les montagnes.
+100	-e/-é	tatoeba	Je ne vais pas t'embeter avec ca.	Je ne vais pas t'embêter avec ça.
+101	-e/-é	tatoeba	Ils ont reclame une augmentation de salaire.	Ils ont réclamé une augmentation de salaire.
+102	-e/-é	tatoeba	Combien de temps vas-tu me le faire dire ? Sais-tu combien de fois j'ai tente de le reveiller ?	Combien de temps vas-tu me le faire dire ? Sais-tu combien de fois j'ai tenté de le réveiller ?
+103	-e/-é	tatoeba	Les pneus s'usent a cause de la friction entre le caoutchouc et la route.	Les pneus s'usent à cause de la friction entre le caoutchouc et la route.
+104	-e/-é	tatoeba	Est-ce tout ce que vous avez achete ?	Est-ce tout ce que vous avez acheté ?
+105	-e/-é	tatoeba	De nombreux retraites britanniques vivent en France, en Allemagne et en Espagne.	De nombreux retraités britanniques vivent en France, en Allemagne et en Espagne.
+106	-e/-é	tatoeba	Mon entreprise a remporte l'appel d'offre pour la construction de la nouvelle mairie.	Mon entreprise a remporté l'appel d'offre pour la construction de la nouvelle mairie.
+107	-e/-é	tatoeba	Etes-vous sur que Tom est ici ?	Êtes-vous sûr que Tom est ici ?
+108	-e/-é	tatoeba	Antoine et Chantal mangent du gateau a la rhubarbe avec du the a la menthe au salon de the.	Antoine et Chantal mangent du gâteau à la rhubarbe avec du thé à la menthe au salon de thé.
+109	-e/-é	tatoeba	Je lui ai demande conseil.	Je lui ai demandé conseil.
+110	-e/-é	tatoeba	Tom et Marie se sont accuses l'un l'autre.	Tom et Marie se sont accusés l'un l'autre.
+111	-e/-é	tatoeba	Elles ont vu de leurs propres yeux, elles n'avaient rien a dire que de pousser des youyous.	Elles ont vu de leurs propres yeux, elles n'avaient rien à dire que de pousser des youyous.
+112	-e/-é	tatoeba	Un jour, Christophe Colomb a rencontre Betty, mais il ne s'est PAS fait assassiner.	Un jour, Christophe Colomb a rencontré Betty, mais il ne s'est PAS fait assassiner.
+113	-e/-é	tatoeba	Il est allonge a plat dos.	Il est allongé à plat dos.
+114	-e/-é	tatoeba	Je veux me joindre a ton equipe.	Je veux me joindre à ton équipe.
+115	-e/-é	tatoeba	Je dois lui dire que le telephone a sonne tandis qu'elle etait sortie.	Je dois lui dire que le téléphone a sonné tandis qu'elle était sortie.
+116	-e/-é	tatoeba	Je ne savais pas que vous deux etiez meilleurs amis a present.	Je ne savais pas que vous deux étiez meilleurs amis à présent.
+117	-e/-é	tatoeba	Nous devons essayer quelque chose de different.	Nous devons essayer quelque chose de différent.
+118	-e/-é	tatoeba	N'hesite pas a me dire, si tu as besoin de quelque chose.	N'hésite pas à me dire, si tu as besoin de quelque chose.
+119	-e/-é	tatoeba	S'il aime vraiment le kabyle, il doit respecter ses regles d'ecriture.	S'il aime vraiment le kabyle, il doit respecter ses règles d'écriture.
+120	-e/-é	tatoeba	Ne te laisse pas abuser par les details superficiels.	Ne te laisse pas abuser par les détails superficiels.
+121	-e/-é	tatoeba	Ken a couru sa chance aupres de Marie, mais en vain.	Ken a couru sa chance auprès de Marie, mais en vain.
+122	-e/-é	tatoeba	Tom ne veut pas te parler maintenant.	Tom ne veut pas te parler maintenant.
+123	-e/-é	tatoeba	Il ne cesse de rire, incapable de s'arreter.	Il ne cesse de rire, incapable de s'arrêter.
+124	-e/-é	tatoeba	Elles vont devoir te rappeler de suite.	Elles vont devoir te rappeler de suite.
+125	-e/-é	tatoeba	Yanni devrait beneficier de reparations.	Yanni devrait bénéficier de réparations.
+126	-e/-é	tatoeba	La jeune fille ne repondit rien.	La jeune fille ne répondit rien.
+127	-e/-é	tatoeba	Tout ce que nous aimons dans la civilisation est le produit de l'intelligence humaine.	Tout ce que nous aimons dans la civilisation est le produit de l'intelligence humaine.
+128	-e/-é	tatoeba	Mon pere raconte une vieille histoire.	Mon père raconte une vieille histoire.
+129	-e/-é	tatoeba	Je te donnerai un velo pour ton anniversaire.	Je te donnerai un vélo pour ton anniversaire.
+130	-e/-é	tatoeba	C'etait une personne de corpulence et de taille moyennes.	C'était une personne de corpulence et de taille moyennes.
+131	-e/-é	tatoeba	Qu'on parte en voyage ou non depend du temps.	Qu'on parte en voyage ou non dépend du temps.
+132	-e/-é	tatoeba	Ma mere aime la musique.	Ma mère aime la musique.
+133	-e/-é	tatoeba	Je ne vais pas manger ceci.	Je ne vais pas manger ceci.
+134	-e/-é	tatoeba	« Oranjestad est la capitale de quel pays ? » « Aruba. »	« Oranjestad est la capitale de quel pays ? » « Aruba. »
+135	-e/-é	tatoeba	Une girafe allonge le cou pour aller chercher de la nourriture.	Une girafe allonge le cou pour aller chercher de la nourriture.
+136	-e/-é	tatoeba	Les algorithmes de vision par ordinateur detectent les changements subtils dans l'imagerie satellite.	Les algorithmes de vision par ordinateur détectent les changements subtils dans l'imagerie satellite.
+137	-e/-é	tatoeba	J'aime bien cet endroit.	J'aime bien cet endroit.
+138	-e/-é	tatoeba	Les prisonnieres essayerent de s'enfuir.	Les prisonnières essayèrent de s'enfuir.
+139	-e/-é	tatoeba	J'ai eu des frissons en entendant le poeme.	J'ai eu des frissons en entendant le poème.
+140	-e/-é	tatoeba	L'eau est-elle assez limpide pour faire de la plongee avec tuba ?	L'eau est-elle assez limpide pour faire de la plongée avec tuba ?
+141	-e/-é	tatoeba	L'intimite entre deux hommes suscite encore des interrogations.	L'intimité entre deux hommes suscite encore des interrogations.
+142	-e/-é	tatoeba	Que le Malin t'emporte !	Que le Malin t'emporte !
+143	-e/-é	tatoeba	Il s'en tire bien.	Il s'en tire bien.
+144	other	tatoeba	Elle ne se plaignit pas, mais son attitude equivalait a des reproches.	Elle ne se plaignit pas, mais son attitude équivalait à des reproches.
+145	other	tatoeba	J'ai reussi a prendre le dernier train.	J'ai réussi à prendre le dernier train.
+146	other	tatoeba	J'ai croise Thomas a la sortie de mon cours.	J'ai croisé Thomas à la sortie de mon cours.
+147	other	tatoeba	J'ai besoin de quelqu'un a qui parler.	J'ai besoin de quelqu'un à qui parler.
+148	other	tatoeba	Je lui ai deja parle.	Je lui ai déjà parlé.
+149	other	tatoeba	J'en ai entendu parler. Tes parents ont disparu en laissant tomber leur dette, c'est ca ?	J'en ai entendu parler. Tes parents ont disparu en laissant tomber leur dette, c'est ça ?
+150	other	tatoeba	Tu ne veux pas faire ca maintenant ?	Tu ne veux pas faire ça maintenant ?
+151	other	tatoeba	Est-ce que ca te derange si je marche avec toi ?	Est-ce que ça te dérange si je marche avec toi ?
+152	other	tatoeba	J'ai deja fait ca de nombreuses fois.	J'ai déjà fait ça de nombreuses fois.
+153	other	tatoeba	Ca s'est passe quand je ne regardais pas.	Ça s'est passé quand je ne regardais pas.
+154	other	tatoeba	Je ne comprends pas pourquoi tu ne veux pas faire ca.	Je ne comprends pas pourquoi tu ne veux pas faire ça.
+155	other	tatoeba	Tom a vecu dans sa voiture un moment apres avoir rompu avec Mary.	Tom a vécu dans sa voiture un moment après avoir rompu avec Mary.
+156	other	tatoeba	De nombreux travailleurs immigres vinrent en Allemagne apres la Seconde Guerre Mondiale.	De nombreux travailleurs immigrés vinrent en Allemagne après la Seconde Guerre Mondiale.
+157	other	tatoeba	« Quelle est votre planete preferee ? » « La Terre. »	« Quelle est votre planète préférée ? » « La Terre. »
+158	other	tatoeba	J'ai beaucoup ecrit dans mon journal hier.	J'ai beaucoup écrit dans mon journal hier.
+159	other	tatoeba	Il a prit la route vers Amizour.	Il a prit la route vers Amizour.
+160	other	tatoeba	J'ai ete trop abasourdie pour parler.	J'ai été trop abasourdie pour parler.
+161	other	tatoeba	Je n'ai pas appele d'ambulance.	Je n'ai pas appelé d'ambulance.
+162	other	tatoeba	J'aimerais certes detenir ce livre mais il ne vaut pas, selon moi, cent euros.	J'aimerais certes détenir ce livre mais il ne vaut pas, selon moi, cent euros.
+163	other	tatoeba	J'ai pris un kilo trois cents grammes.	J'ai pris un kilo trois cents grammes.
+164	other	tatoeba	Je lui ai transmis le message.	Je lui ai transmis le message.
+165	other	tatoeba	J’ai lu un article sur l’importance du lavage des mains, c’etait vraiment interessant.	J’ai lu un article sur l’importance du lavage des mains, c’était vraiment intéressant.
+166	other	tatoeba	J'ai ete camper dans les alpes japonaises avec mon club.	J'ai été camper dans les alpes japonaises avec mon club.
+167	other	tatoeba	Il croit aux histoires de Boussad.	Il croit aux histoires de Boussad.
+168	other	tatoeba	Elle fut victime de violence conjugale.	Elle fut victime de violence conjugale.
+169	handwritten	handwritten	Bonjour Claire, je vous ai envoye le devis hier, vous l'avez bien recu ?	Bonjour Claire, je vous ai envoyé le devis hier, vous l'avez bien reçu ?
+170	handwritten	handwritten	Merci pour votre retour, je reviens vers vous d'ici a la fin de la semaine.	Merci pour votre retour, je reviens vers vous d'ici à la fin de la semaine.
+171	handwritten	handwritten	La formation a lieu a Toulouse, dans la salle ou nous etions la derniere fois.	La formation a lieu à Toulouse, dans la salle où nous étions la dernière fois.
+172	handwritten	handwritten	Je ne suis pas sur que la date du 12 convienne a tout le monde.	Je ne suis pas sûr que la date du 12 convienne à tout le monde.
+173	handwritten	handwritten	Le document est pret a etre envoye, il manque juste la signature du client.	Le document est prêt à être envoyé, il manque juste la signature du client.
+174	handwritten	handwritten	Nous avons demarre la session a neuf heures et tout s'est bien passe.	Nous avons démarré la session à neuf heures et tout s'est bien passé.
+175	handwritten	handwritten	Chaque participant a recu le support imprime a la fin de la journee.	Chaque participant a reçu le support imprimé à la fin de la journée.
+176	handwritten	handwritten	Je vous confirme que le paiement a ete effectue ce matin.	Je vous confirme que le paiement a été effectué ce matin.
+177	handwritten	handwritten	Il faudra que le rapport soit valide avant la reunion de lundi.	Il faudra que le rapport soit validé avant la réunion de lundi.
+178	handwritten	handwritten	Ou en etes-vous sur le projet ? Je peux passer demain ou jeudi.	Où en êtes-vous sur le projet ? Je peux passer demain ou jeudi.
+179	handwritten	handwritten	Le groupe a travaille sur des cas concrets, ce qui a beaucoup aide.	Le groupe a travaillé sur des cas concrets, ce qui a beaucoup aidé.
+180	handwritten	handwritten	J'ai modifie la presentation suite a vos remarques de la semaine derniere.	J'ai modifié la présentation suite à vos remarques de la semaine dernière.
+181	handwritten	handwritten	Est-ce que vous preferez une session en presentiel ou a distance ?	Est-ce que vous préférez une session en présentiel ou à distance ?
+182	handwritten	handwritten	La facture sera envoyee des reception du bon de commande.	La facture sera envoyée dès réception du bon de commande.
+183	handwritten	handwritten	Le module est termine, il reste a caler la date de la restitution.	Le module est terminé, il reste à caler la date de la restitution.
+184	handwritten	handwritten	Elle m'a demande si la salle etait reservee pour toute la journee.	Elle m'a demandé si la salle était réservée pour toute la journée.
+185	handwritten	handwritten	Nous avons du reporter l'atelier a cause de la greve.	Nous avons dû reporter l'atelier à cause de la grève.
+186	handwritten	handwritten	Je suis passe au bureau mais personne n'etait la.	Je suis passé au bureau mais personne n'était là.
+187	handwritten	handwritten	Ce que j'ai observe, c'est que l'equipe a besoin d'un cadre plus clair.	Ce que j'ai observé, c'est que l'équipe a besoin d'un cadre plus clair.
+188	handwritten	handwritten	Quand il a exprime son besoin, la tension est retombee tout de suite.	Quand il a exprimé son besoin, la tension est retombée tout de suite.
+189	handwritten	handwritten	L'objectif est de passer d'un jugement a une observation.	L'objectif est de passer d'un jugement à une observation.
+190	handwritten	handwritten	Vous trouverez ci-joint le programme detaille et le planning propose.	Vous trouverez ci-joint le programme détaillé et le planning proposé.
+191	handwritten	handwritten	Le contrat a ete signe par les deux parties, je le range dans le dossier partage.	Le contrat a été signé par les deux parties, je le range dans le dossier partagé.
+192	handwritten	handwritten	Je vous remercie de m'avoir accorde ce temps d'echange.	Je vous remercie de m'avoir accordé ce temps d'échange.
+193	handwritten	handwritten	Il a pense que la reunion etait annulee, mais elle a simplement ete deplacee.	Il a pensé que la réunion était annulée, mais elle a simplement été déplacée.
+194	handwritten	handwritten	La manager a pose une question tres juste sur la charge de travail.	La manager a posé une question très juste sur la charge de travail.
+195	handwritten	handwritten	Tout le monde a joue le jeu, meme ceux qui etaient reticents au depart.	Tout le monde a joué le jeu, même ceux qui étaient réticents au départ.
+196	handwritten	handwritten	Nous sommes arrives a une decision commune apres une heure de discussion.	Nous sommes arrivés à une décision commune après une heure de discussion.
+197	handwritten	handwritten	J'ai trouve l'exercice utile, surtout la partie ou chacun reformule.	J'ai trouvé l'exercice utile, surtout la partie où chacun reformule.
+198	handwritten	handwritten	Le prototype est deploye sur le serveur de test, vous pouvez y acceder des maintenant.	Le prototype est déployé sur le serveur de test, vous pouvez y accéder dès maintenant.
+199	handwritten	handwritten	Il reste une question a trancher : on garde la version actuelle ou on repart de zero ?	Il reste une question à trancher : on garde la version actuelle ou on repart de zéro ?
+200	handwritten	handwritten	Je lui ai explique la demarche et il a accepte de participer a la prochaine session.	Je lui ai expliqué la démarche et il a accepté de participer à la prochaine session.
+201	handwritten	handwritten	Le client a valide le cahier des charges, on peut commencer le developpement.	Le client a validé le cahier des charges, on peut commencer le développement.
+202	handwritten	handwritten	Ca depend de votre budget et du delai que vous vous etes fixe.	Ça dépend de votre budget et du délai que vous vous êtes fixé.
+203	handwritten	handwritten	Si vous etes d'accord, je prepare une proposition d'ici a vendredi.	Si vous êtes d'accord, je prépare une proposition d'ici à vendredi.
+204	handwritten	handwritten	La ou ca coince, c'est sur le partage des donnees entre les equipes.	Là où ça coince, c'est sur le partage des données entre les équipes.
+205	handwritten	handwritten	Je suis sure que vous trouverez une solution qui convient a tout le monde.	Je suis sûre que vous trouverez une solution qui convient à tout le monde.
+206	handwritten	handwritten	L'assistant repond aux questions en s'appuyant sur les documents indexes.	L'assistant répond aux questions en s'appuyant sur les documents indexés.
+207	handwritten	handwritten	Le temps passe sur les taches repetitives a ete divise par deux.	Le temps passé sur les tâches répétitives a été divisé par deux.
+208	handwritten	handwritten	Nous avons organise un point d'etape a mi-parcours pour ajuster le programme.	Nous avons organisé un point d'étape à mi-parcours pour ajuster le programme.

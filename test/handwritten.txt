@@ -1,0 +1,42 @@
+# Professional-register sentences with hard words (a/à, ou/où, -e/-é, là, sûr, dû...).
+# One sentence per line, correctly accented. Lines starting with # are ignored.
+Bonjour Claire, je vous ai envoyé le devis hier, vous l'avez bien reçu ?
+Merci pour votre retour, je reviens vers vous d'ici à la fin de la semaine.
+La formation a lieu à Toulouse, dans la salle où nous étions la dernière fois.
+Je ne suis pas sûr que la date du 12 convienne à tout le monde.
+Le document est prêt à être envoyé, il manque juste la signature du client.
+Nous avons démarré la session à neuf heures et tout s'est bien passé.
+Chaque participant a reçu le support imprimé à la fin de la journée.
+Je vous confirme que le paiement a été effectué ce matin.
+Il faudra que le rapport soit validé avant la réunion de lundi.
+Où en êtes-vous sur le projet ? Je peux passer demain ou jeudi.
+Le groupe a travaillé sur des cas concrets, ce qui a beaucoup aidé.
+J'ai modifié la présentation suite à vos remarques de la semaine dernière.
+Est-ce que vous préférez une session en présentiel ou à distance ?
+La facture sera envoyée dès réception du bon de commande.
+Le module est terminé, il reste à caler la date de la restitution.
+Elle m'a demandé si la salle était réservée pour toute la journée.
+Nous avons dû reporter l'atelier à cause de la grève.
+Je suis passé au bureau mais personne n'était là.
+Ce que j'ai observé, c'est que l'équipe a besoin d'un cadre plus clair.
+Quand il a exprimé son besoin, la tension est retombée tout de suite.
+L'objectif est de passer d'un jugement à une observation.
+Vous trouverez ci-joint le programme détaillé et le planning proposé.
+Le contrat a été signé par les deux parties, je le range dans le dossier partagé.
+Je vous remercie de m'avoir accordé ce temps d'échange.
+Il a pensé que la réunion était annulée, mais elle a simplement été déplacée.
+La manager a posé une question très juste sur la charge de travail.
+Tout le monde a joué le jeu, même ceux qui étaient réticents au départ.
+Nous sommes arrivés à une décision commune après une heure de discussion.
+J'ai trouvé l'exercice utile, surtout la partie où chacun reformule.
+Le prototype est déployé sur le serveur de test, vous pouvez y accéder dès maintenant.
+Il reste une question à trancher : on garde la version actuelle ou on repart de zéro ?
+Je lui ai expliqué la démarche et il a accepté de participer à la prochaine session.
+Le client a validé le cahier des charges, on peut commencer le développement.
+Ça dépend de votre budget et du délai que vous vous êtes fixé.
+Si vous êtes d'accord, je prépare une proposition d'ici à vendredi.
+Là où ça coince, c'est sur le partage des données entre les équipes.
+Je suis sûre que vous trouverez une solution qui convient à tout le monde.
+L'assistant répond aux questions en s'appuyant sur les documents indexés.
+Le temps passé sur les tâches répétitives a été divisé par deux.
+Nous avons organisé un point d'étape à mi-parcours pour ajuster le programme.

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sans-Accent</title>
+  <meta name="description" content="Writing French on a QWERTY keyboard? Sans-Accent adds the accents as you type, in every Mac app.">
+  <link rel="alternate" hreflang="fr" href="../">
+  <link rel="alternate" hreflang="en" href="./">
+  <link rel="icon" href="../assets/icon-256.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..800;1,7..72,500&display=swap">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <a class="brand" href="./"><img src="../assets/icon-256.png" alt="">Sans-Accent</a>
+      <nav><a href="../" hreflang="fr" lang="fr">Français</a></nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1 lang="fr">Tapez sans accents, <span class="accent">é</span>crivez sans fautes.</h1>
+        <p class="lead">Type without accents, write without mistakes. Writing French on a QWERTY keyboard? Sans-Accent adds the accents as you type, in every app.</p>
+
+        <div class="demo">
+          <label for="demo-input">Try it here, without accents:</label>
+          <div class="demo-box">
+            <div class="mirror" id="demo-mirror" aria-hidden="true"></div>
+            <textarea id="demo-input" rows="2" spellcheck="false" autocomplete="off" autocapitalize="off"
+                      placeholder="for example: je suis alle a l'ecole"></textarea>
+          </div>
+          <div class="choices" id="demo-choices" hidden>
+            <span>Two possible spellings:</span>
+            <span id="demo-choice-buttons"></span>
+          </div>
+        </div>
+
+        <div class="download">
+          <a class="button" href="https://github.com/antoineant/sans-accent/releases/latest/download/Sans-Accent.dmg">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3v10m-4.5-4.5L10 13l4.5-4.5M4 17h12"/></svg>
+            Download for Mac
+          </a>
+          <p>Sans-Accent is free and runs on macOS&nbsp;14 or later.</p>
+        </div>
+      </div>
+
+      <section aria-labelledby="how">
+        <h2 id="how">How it works</h2>
+        <div class="feature">
+          <div>
+            <h3>Accents appear on their own</h3>
+            <p>Type “ecole” and it becomes “école” as soon as you move on to the next word. Sans-Accent knows more than 35,000 words and enough grammar to write “je suis allé” or “à cause” without asking you.</p>
+          </div>
+          <div class="example" aria-hidden="true"><span class="typed">ecole</span><span class="arrow">→</span><span class="accent">é</span>cole</div>
+        </div>
+        <div class="feature">
+          <div>
+            <h3>You choose when French is ambiguous</h3>
+            <p>Some words have two spellings, like “a” and “à” or “ou” and “où”. A small list appears above the word: choose with <span class="keys"><kbd>↑</kbd> <kbd>↓</kbd></span>, then confirm with <kbd>⏎</kbd>. If you keep typing, the word stays as it is.</p>
+          </div>
+          <div class="mini-list" aria-hidden="true"><span class="on">à</span><span>a</span><small>↑↓ ⏎</small></div>
+        </div>
+        <div class="feature">
+          <div>
+            <h3>One key for everything else</h3>
+            <p>Tap <kbd>⌥</kbd> after any word to see its other spellings. You can also turn Sans-Accent off in a specific app, like your code editor.</p>
+          </div>
+          <div class="big-key" aria-hidden="true"><kbd>⌥</kbd></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="privacy">
+        <h2 id="privacy">What you type stays on your Mac</h2>
+        <p>To add accents, Sans-Accent reads what you type, which is why macOS asks you to allow Accessibility access. Everything happens on your Mac. The app sends nothing, stores nothing and contains no trackers.</p>
+        <p>Sans-Accent is signed by its developer and notarized by Apple, so macOS checks that the app hasn't been altered since it was published.</p>
+      </section>
+
+      <section aria-labelledby="install">
+        <h2 id="install">Install Sans-Accent</h2>
+        <ol class="steps">
+          <li><span>Download the file and open it.</span></li>
+          <li><span>Drag Sans-Accent into your Applications folder.</span></li>
+          <li><span>Open the app: a window walks you through allowing access, then lets you try it right away.</span></li>
+        </ol>
+      </section>
+      <section aria-labelledby="support-title" id="support">
+        <h2 id="support-title">Support Sans-Accent</h2>
+        <p>Sans-Accent is free and will stay free. If it saves you time, you can support its development: every contribution helps us improve it and keep it up to date.</p>
+        <div class="support">
+          <a class="button secondary" href="https://liberapay.com/antoineant/donate">Donate on Liberapay</a>
+          <a class="button secondary" href="https://github.com/sponsors/antoineant">Sponsor on GitHub</a>
+        </div>
+        <p class="note">Liberapay is a donation platform run by a French non-profit association.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Sans-Accent is made in Toulouse by Girafe Studio. Its code is open and available on <a href="https://github.com/antoineant/sans-accent">GitHub</a>. Its dictionary is based on <a href="http://www.lexique.org">Lexique&nbsp;3</a>, published under the CC&nbsp;BY-SA&nbsp;4.0 license.</p>
+    </footer>
+  </div>
+  <script src="../assets/demo.js"></script>
+</body>
+</html>
