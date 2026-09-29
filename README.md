@@ -37,7 +37,8 @@ Accessibility access again after each build.
 | Path | Role |
 |---|---|
 | `Sources/AccentCore` | word logic (`Engine`), dictionary loader, typing simulator |
-| `Sources/SansAccent` | the app: keyboard tap, choice list, menu bar, welcome window |
+| `Sources/SansAccentApp` | the app itself (keyboard tap, choice list, menu bar, welcome window) and its extension point |
+| `Sources/SansAccent` | the free app's entry point: `SansAccentApp` with no extensions |
 | `Sources/AccentBench` | types the benchmark sentences through the engine |
 | `Tests/AccentCoreTests` | end-to-end typing tests |
 | `Localization/{en,fr}.lproj` | interface strings (French and English) |

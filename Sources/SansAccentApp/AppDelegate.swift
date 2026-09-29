@@ -3,7 +3,8 @@ import AppKit
 import ServiceManagement
 
 /// Menu bar item (the "Sa" logo), settings, per-app exclusions and the Accessibility permission.
-final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
+public final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
+    private let extensions: [SansAccentExtension]
     private var statusItem: NSStatusItem!
     private var engine: Engine!
     private var tap: KeyboardTap!
@@ -23,6 +24,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     ]
 
     private let defaults = UserDefaults.standard
+
+    /// `extensions` add features (menu items, hooks) on top of the free app.
+    public init(extensions: [SansAccentExtension] = []) {
+        self.extensions = extensions
+        super.init()
+    }
     private var enabled: Bool {
         get { defaults.object(forKey: "enabled") as? Bool ?? true }
         set { defaults.set(newValue, forKey: "enabled"); refresh() }
@@ -51,7 +58,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
     // MARK: - Launch
 
-    func applicationDidFinishLaunching(_ notification: Notification) {
+    public func applicationDidFinishLaunching(_ notification: Notification) {
         guard let url = Bundle.main.url(forResource: "accent_dict", withExtension: "tsv"),
               let dictionary = try? AccentDictionary(contentsOf: url) else {
             fatalError("accent_dict.tsv missing from the app bundle")
@@ -69,6 +76,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
         startTap()
         refresh()
+        extensions.forEach { $0.didLaunch(ExtensionContext(engine: engine)) }
         // First launch, or still no permission: explain before macOS asks.
         if !tap.isRunning || !defaults.bool(forKey: "welcomeShown") {
             defaults.set(true, forKey: "welcomeShown")
@@ -123,7 +131,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
     // MARK: - Menu
 
-    func menuNeedsUpdate(_ menu: NSMenu) {
+    public func menuNeedsUpdate(_ menu: NSMenu) {
         menu.removeAllItems()
 
         if !tap.isRunning {
@@ -158,6 +166,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         hint.isEnabled = false
         menu.addItem(hint)
         menu.addItem(.separator())
+
+        let extensionItems = extensions.flatMap { $0.menuItems() }
+        if !extensionItems.isEmpty {
+            extensionItems.forEach(menu.addItem)
+            menu.addItem(.separator())
+        }
 
         let languages = NSMenu()
         for language in InterfaceLanguage.allCases {
