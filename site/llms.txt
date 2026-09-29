@@ -29,6 +29,8 @@
   the four methods (press and hold, Option shortcuts, text replacements, Sans-Accent)
 - [How to type French accents on a Mac (QWERTY keyboard)](https://sans-accent.com/en/french-accents-qwerty-mac/): the same
   guide in English
+- [Les fautes d'accent les plus fréquentes](https://sans-accent.com/fautes-accent-frequentes/): a ou à, ou ou où, la ou là,
+  sur ou sûr, du ou dû, des ou dès, participles and capitals, with the rule and a simple trick for each (French)
 
 ## En français
 

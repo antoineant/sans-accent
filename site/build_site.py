@@ -34,12 +34,16 @@ STUDIO = {
     "url": "https://www.girafestudio.fr",
     "address": {"@type": "PostalAddress", "addressLocality": "Toulouse", "addressCountry": "FR"},
 }
-# (file, language, kind, path)
+# (file, language, kind, path, {language: path} of every version, this one included)
+HOME = {"fr": "/", "en": "/en/"}
+QWERTY_GUIDE = {"fr": "/accents-clavier-qwerty-mac/", "en": "/en/french-accents-qwerty-mac/"}
+MISTAKES_GUIDE = {"fr": "/fautes-accent-frequentes/"}
 PAGES = [
-    ("index.html", "fr", "home", "/"),
-    ("en/index.html", "en", "home", "/en/"),
-    ("accents-clavier-qwerty-mac/index.html", "fr", "guide", "/accents-clavier-qwerty-mac/"),
-    ("en/french-accents-qwerty-mac/index.html", "en", "guide", "/en/french-accents-qwerty-mac/"),
+    ("index.html", "fr", "home", "/", HOME),
+    ("en/index.html", "en", "home", "/en/", HOME),
+    ("accents-clavier-qwerty-mac/index.html", "fr", "guide", "/accents-clavier-qwerty-mac/", QWERTY_GUIDE),
+    ("en/french-accents-qwerty-mac/index.html", "en", "guide", "/en/french-accents-qwerty-mac/", QWERTY_GUIDE),
+    ("fautes-accent-frequentes/index.html", "fr", "guide", "/fautes-accent-frequentes/", MISTAKES_GUIDE),
 ]
 AI_CRAWLERS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User",
                "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended", "Bingbot"]
@@ -156,7 +160,7 @@ def structured_data(page, lang, kind, path, version):
 
 def seo_files(version):
     today = datetime.date.today().isoformat()
-    for file, lang, kind, path in PAGES:
+    for file, lang, kind, path, _ in PAGES:
         target = SITE / file
         page = target.read_text(encoding="utf-8")
         data = structured_data(page, lang, kind, path, version)
@@ -164,15 +168,13 @@ def seo_files(version):
                       lambda m: f"{m.group(1)}\n{data}\n  {m.group(2)}", page, flags=re.S)
         target.write_text(page, encoding="utf-8")
 
-    pairs = {"home": ("/", "/en/"), "guide": ("/accents-clavier-qwerty-mac/", "/en/french-accents-qwerty-mac/")}
     urls = []
-    for file, lang, kind, path in PAGES:
-        fr, en = pairs[kind]
+    for file, lang, kind, path, versions in PAGES:
+        alternates = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{SITE_URL}{p}"/>'
+                             for l, p in versions.items()) if len(versions) > 1 else ""
         urls.append(f"""  <url>
     <loc>{SITE_URL}{path}</loc>
-    <lastmod>{today}</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="{SITE_URL}{fr}"/>
-    <xhtml:link rel="alternate" hreflang="en" href="{SITE_URL}{en}"/>
+    <lastmod>{today}</lastmod>{alternates}
   </url>""")
     (SITE / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -215,6 +217,8 @@ def seo_files(version):
   the four methods (press and hold, Option shortcuts, text replacements, Sans-Accent)
 - [How to type French accents on a Mac (QWERTY keyboard)]({SITE_URL}/en/french-accents-qwerty-mac/): the same
   guide in English
+- [Les fautes d'accent les plus fréquentes]({SITE_URL}/fautes-accent-frequentes/): a ou à, ou ou où, la ou là,
+  sur ou sûr, du ou dû, des ou dès, participles and capitals, with the rule and a simple trick for each (French)
 
 ## En français
 
