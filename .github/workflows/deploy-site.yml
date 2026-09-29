@@ -1,0 +1,31 @@
+# Updates https://sans-accent.com on every push that changes site/.
+# The site is served by nginx on the VPS (see github.com/antoineant/edge) straight from a clone of this
+# repo. VPS_DEPLOY_KEY is restricted on the server to `git pull` in that clone: it can do nothing else.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/deploy-site.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull the site on the VPS
+        env:
+          DEPLOY_KEY: ${{ secrets.VPS_DEPLOY_KEY }}
+          KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes ubuntu@51.75.253.164
+      - name: Check the site responds
+        run: curl -sf -o /dev/null https://sans-accent.com/
