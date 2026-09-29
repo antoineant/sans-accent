@@ -27,7 +27,7 @@
 - [Sans-Accent (English)](https://sans-accent.com/en/): home page, live demo, FAQ
 - [Taper les accents français sur un clavier QWERTY (Mac)](https://sans-accent.com/accents-clavier-qwerty-mac/): guide to
   the four methods (press and hold, Option shortcuts, text replacements, Sans-Accent)
-- [How to type French accents on a QWERTY keyboard (Mac)](https://sans-accent.com/en/french-accents-qwerty-mac/): the same
+- [How to type French accents on a Mac (QWERTY keyboard)](https://sans-accent.com/en/french-accents-qwerty-mac/): the same
   guide in English
 
 ## En français

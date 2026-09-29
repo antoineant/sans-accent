@@ -213,7 +213,7 @@ def seo_files(version):
 - [Sans-Accent (English)]({SITE_URL}/en/): home page, live demo, FAQ
 - [Taper les accents français sur un clavier QWERTY (Mac)]({SITE_URL}/accents-clavier-qwerty-mac/): guide to
   the four methods (press and hold, Option shortcuts, text replacements, Sans-Accent)
-- [How to type French accents on a QWERTY keyboard (Mac)]({SITE_URL}/en/french-accents-qwerty-mac/): the same
+- [How to type French accents on a Mac (QWERTY keyboard)]({SITE_URL}/en/french-accents-qwerty-mac/): the same
   guide in English
 
 ## En français
