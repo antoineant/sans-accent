@@ -29,3 +29,12 @@ jobs:
           ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes ubuntu@51.75.253.164
       - name: Check the site responds
         run: curl -sf -o /dev/null https://sans-accent.com/
+      # IndexNow tells Bing (whose index feeds several AI assistants), Yandex, Seznam and others
+      # that the pages changed. The key file site/e772a0e6b5c51d057d3778612bb811f6.txt proves the site is ours.
+      - name: Notify search engines (IndexNow)
+        run: |
+          urls=$(curl -sf https://sans-accent.com/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | jq -R . | jq -s .)
+          jq -n --argjson urls "$urls" '{host: "sans-accent.com", key: "e772a0e6b5c51d057d3778612bb811f6",
+            keyLocation: "https://sans-accent.com/e772a0e6b5c51d057d3778612bb811f6.txt", urlList: $urls}' |
+            curl -s -o /dev/null -w "IndexNow: HTTP %{http_code}\n" -H "Content-Type: application/json; charset=utf-8" \
+              --data @- https://api.indexnow.org/indexnow

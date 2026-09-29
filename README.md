@@ -66,7 +66,7 @@ Then `python3 build_dict.py && ./build.sh`. To measure a change:
 Preview with `python3 -m http.server -d site 8765`, then open http://127.0.0.1:8765/.
 Every push to `main` that touches `site/` publishes it to https://sans-accent.com: the site is served by
 nginx on the maintainer's VPS from a clone of this repo, and `.github/workflows/deploy-site.yml` runs
-`git pull` there (the deploy key can do nothing else).
+`git pull` there (the deploy key can do nothing else), then notifies search engines through IndexNow.
 
 ### Release
 
